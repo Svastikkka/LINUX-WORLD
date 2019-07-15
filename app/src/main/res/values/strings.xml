@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Linux World</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">LinuxWorld Informatics Pvt Ltd</string>
+    <string name="nav_header_subtitle">support@linuxworld.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_us">About us</string>
+    <string name="title_activity_welcome">welcome</string>
+
+
+    <string-array name="JietContact">
+
+        <!--  Contacts Groups-->
+        <item>"Mr. Vimal Daga"</item>
+        <item>" Mrs Preeti Daga"</item>
+    </string-array>
+
+    <string-array name="JietDesignation">
+
+        <!--  Contacts Groups-->
+        <item>"Founder"</item>
+        <item>"C.E.O"</item>
+
+    </string-array>
+    <string name="title_activity_holidays">Notification</string>
+    <string name="title_activity_introduction">Introduction</string>
+    <string name="title_activity_contact_number">Contact number</string>
+    <string name="title_activity_student_cell">Student cell</string>
+
+
+</resources>

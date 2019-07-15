@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.svatikk.linuxworld">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MySingletoneForAll"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_of_lw"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".StudentCell"
+            android:label="@string/title_activity_student_cell"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ContactNumber"
+            android:label="@string/title_activity_contact_number"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".introduction"
+            android:label="@string/title_activity_introduction"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".holidays"
+            android:label="@string/title_activity_holidays"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".welcome"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".about_us"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
